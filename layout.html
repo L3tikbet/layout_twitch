@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Overlay OBS</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      background: url("bg.gif") no-repeat center center;
+      background-size: cover;
+    }
+
+    #camera {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      width: 400px;
+      height: 225px;
+      border: 5px solid white;
+      border-radius: 16px;
+      background-color: #00000099;
+    }
+
+    #chat {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      width: 300px;
+      height: 500px;
+      background-color: #00000066;
+      color: white;
+      padding: 10px;
+      overflow-y: auto;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="camera">🟦 Aqui entra sua câmera</div>
+  <div id="chat">
+    <p><strong>Usuário1:</strong> Olá!</p>
+    <p><strong>Usuário2:</strong> Que overlay bonito 😄</p>
+  </div>
+</body>
+</html>
