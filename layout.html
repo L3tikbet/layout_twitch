@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Minha Tela no OBS</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: sans-serif;
-    }
-    h1 {
-      color: black;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Overlay OBS</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Overlay Simples no OBS</h1>
+  <div id="container">
+    <div id="webcam-box">Câmera aqui</div>
+    <div id="chat-box"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
