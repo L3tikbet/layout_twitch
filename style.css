@@ -32,18 +32,37 @@ body {
     width: 400px;
     height: 600px;
     overflow-y: auto;
-    background: rgba(255, 255, 255, 0.05);
-    border: 2px solid #9146FF;
     padding: 10px;
-    box-shadow: 0 0 10px #9146FF;
   }
   
   .message {
-    margin-bottom: 10px;
+    background-color: #fee6d5;
+    border-left: 8px solid #ff69b4;
+    padding: 30px 10px 10px 10px; /* espaço interno no topo para o nome */
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #ab9483;
+    font-weight: bold;
+    position: relative;
+    max-width: 400px;
+    word-wrap: break-word;
+    overflow: visible; /* garante que nada dentro seja cortado */
   }
   
-  .username {
-    color: #00FF88;
+  .username-box {
+    position: absolute;
+    top: -10px; /* agora está dentro do padding da mensagem */
+    left: 10px;
+    padding: 2px 8px;
+    border-radius: 6px;
     font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    background-color: #ff69b4;
+    color: white;
+    z-index: 10;
   }
+  
+  
+  
   
